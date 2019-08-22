@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+				<!---javascript code for alert---->
+	<script>
+	window.alert('welcome to you here is ismail project');
+</script>
+
+	<div class="formstyle">
+
+				<!----form starting from here---->
+		<form name="forms">
+
+			<input type="text" name="answers" id="answerstyle"><br></br>
+
+			<input type="button" value="1" onclick="forms.answers.value +='1'">
+			<input type="button" value="2" onclick="forms.answers.value +='2'">
+			<input type="button" value="3" onclick="forms.answers.value +='3'"><br><br>
+
+			<input type="button" value="4" onclick="forms.answers.value +='4'">
+			<input type="button" value="5" onclick="forms.answers.value +='5'">
+			<input type="button" value="6" onclick="forms.answers.value +='6'"><br><br>
+
+			<input type="button" value="7" onclick="forms.answers.value +='7'">
+			<input type="button" value="8" onclick="forms.answers.value +='8'">
+			<input type="button" value="9" onclick="forms.answers.value +='9'"><br><br>
+
+			<input type="button" value="+" onclick="forms.answers.value +='+'">
+			<input type="button" value="-" onclick="forms.answers.value +='-'">
+			<input type="button" value="*" onclick="forms.answers.value +='*'"> 
+
+			<br> <br>
+			<input type="button" value="/" onclick="forms.answers.value +='/'">
+			<input type="button" value="0" onclick="forms.answers.value +='0'">
+
+				<!----for calculation logic apply here--->
+			<input type="button" value="=" onclick="forms.answers.value = eval(forms.answers.value) ">
+			<br> <br>
+				<!---this line using for clear button--->
+			<input type="button" value="Clear All" onclick="forms.answers.value = ''" id="clear">
+		</form>
+
+	</div><br>
+
+				<!---image tag here---->
+
+	<img src="pic.jpg" width="100%" height="100%">
+	</body>
+</html>
